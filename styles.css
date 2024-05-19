@@ -1,0 +1,110 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+#birthdayButton {
+    background-color: yellow;
+    border: none;
+    padding: 20px 40px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#birthdayButton:hover {
+    transform: scale(1.1);
+}
+
+#birthdayMessage {
+    font-size: 28px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.hidden {
+    display: none;
+}
+
+#fireworksContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+#explosion {
+
+}
+
+#dinosaurs {
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    width: calc(100% - 20px);
+}
+
+.dinosaur {
+    width: 100px;
+    height: auto;
+}
+#dino1{
+    position: absolute;
+    top: -20px;
+    left: 5px;
+}
+#dino2{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+}
+#dino3{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+#dino4{
+    position: absolute;
+    top: 100px;
+    right: 10px;
+}
+#dino5{
+    position: absolute;
+    top: -20px;
+    left: -50px;
+}
+#dino6{
+    position: absolute;
+    top: -140px;
+    left: 50px;
+}
+#dino7{
+    position: absolute;
+    top: 150px;
+    right: 10px;
+}
+#dino8{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
